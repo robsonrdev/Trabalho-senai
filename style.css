@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #213A57;
+}
+
+form {
+    width: 500px;
+    margin: 200px auto;
+    text-align: center;
+    border-color: #000000;
+    border-radius: 10px;
+    background-color: #ccc;
+    border-style: groove;
+    box-shadow: 0px 0px 50px #000000;
+}
+
+input {
+    display: block;
+    padding-left: 10px;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+}
+
+.user-icon {
+    position: relative;
+    display: inline-block;
+    width: 75px;  /* Tamanho da bola */
+    height: 75px; /* Tamanho da bola */
+    background-color: #213A57;  /* Cor da bola */
+    border-radius: 50%;  /* Deixa a bola redonda */
+    margin: 20px auto;  /* Centraliza a bola */
+}
+
+.user-icon i {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);  /* Cor do ícone */
+}
+
+.buttonlogin {
+    height: 35px;
+    border-radius: 3rem;
+    color: black;
+    width: 65%;
+    border: none;
+    outline: none;
+    background-color: #adadad;
+    box-shadow: inset -3px -3px rgba(95, 95, 95, 0.5);
+}
+
+.button {
+    border-radius: 2rem;
+    height: 40px;
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+    background-color: #29568a;
+    transition: 0.7s;
+    transform: scale(0.98);
+    box-shadow: 0px 0px 8px #29568a;
+}
